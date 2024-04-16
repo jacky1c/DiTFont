@@ -1,0 +1,16 @@
+**/__pycache__/
+.vscode/
+
+notebooks*
+
+data_train/*
+data_test/*
+trained_models*
+finetuned_models*
+ttf_folder*
+result*
+debug_*
+run_scripts/*
+models_DiT_0410
+
+gen_char.txt

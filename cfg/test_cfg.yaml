@@ -1,0 +1,18 @@
+dropout: 0.1
+chara_nums: 6625
+diffusion_steps: 1000
+noise_schedule: 'linear'
+image_size: 80
+batch_size: 7
+num_samples: 14
+use_ddim: True
+timestep_respacing: ddim25
+stroke_path: './chinese_stroke.txt'
+model_path: './trained_models/ema_0.9999_400000.pt'
+sty_img_path: './data_test/id_0/00894.png'
+total_txt_file: './total_chn.txt'
+gen_txt_file: './gen_char.txt'
+img_save_path: './result_id_0'
+classifier_free: True
+cont_scale: 3.0 # content guidance scale
+sk_scale: 5.0 # stroke guidance scale
